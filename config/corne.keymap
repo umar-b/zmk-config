@@ -19,6 +19,8 @@
             bindings =
                 <&kp>,
                 <&kp>;
+
+            tapping-term-ms = <200>;
         };
         u_lt: u_lt {
             compatible = "zmk,behavior-hold-tap";
@@ -29,6 +31,8 @@
             bindings =
                 <&mo>,
                 <&kp>;
+
+            tapping-term-ms = <200>;
         };
     };
 
@@ -139,4 +143,3 @@
 &nice_view_spi {
     cs-gpios = <&pro_micro 0 GPIO_ACTIVE_HIGH>;
 };
-
