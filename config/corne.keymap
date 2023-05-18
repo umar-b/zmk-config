@@ -36,11 +36,6 @@
         compatible = "zmk,keymap";
 
         Base {
-            // -----------------------------------------------------------------------------------------
-            // | TAB  |  Q  |  W  |  E  |  R  |    T    |   |  Y  |  U   |  I  |  O  |  P  | ESC |
-            // | CTRL |  A  |  S  |  D  |  F  |    G    |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-            // | SHFT |  Z  |  X  |  C  |  V  |    B    |   |  N  |  M   |  ,  |  .  |  /  | SHFT |
-            //                    | GUI | LWR | ALT/ENT |   | HYPER/SPC | BKSP  | RSE |
 
             bindings = <
   &kp TAB             &kp Q         &kp W          &kp E           &kp R        &kp T              &kp Y           &kp U            &kp I         &kp O            &kp P    &kp ESC
@@ -53,11 +48,6 @@
         };
 
         Nav {
-            // -----------------------------------------------------------------------------------------
-            // |      |  !  |  @  |  #  |  $  |    %     |   |  ^  |  &  |  *  |  (  |  )  |   \   |
-            // |      |  1  |  2  |  3  |  4  |    5     |   |  -  |  =  |  `  |  [  |  ]  |  "|"  |
-            // | SHFT |  6  |  7  |  8  |  9  |    0     |   |  _  |  +  |  ~  |  {  |  }  | RSHFT |
-            //                     | GUI |     | ALT/ENT |   | HYPER/SPACE | BKSP |    |
 
             bindings = <
 &trans    &trans        &trans            &trans          &trans  &trans      &kp K_REDO     &kp K_PASTE      &kp K_COPY     &kp K_CUT       &kp K_UNDO  &trans
@@ -70,11 +60,6 @@
         };
 
         Mouse {
-            // -----------------------------------------------------------------------------------------
-            // |       |  F1  |  F2  |  F3  |  F4  |  F5 |            |  F6  |  F7  |  F8  |  F9  |  F10  |   |
-            // |       | Prev | Next | Vol - | Vol + | Play/Pause |   |      | LFT | DWN |  UP | RGT |     |     |
-            // | BTCLR | BT1 | BT2 | BT3 | BT4 | BT5 |   |            |     |     |     |     |     |     |
-            //                    |     |     |    |                  |     |     |     |
 
             bindings = <
 &trans    &trans        &trans            &trans          &trans  &trans    &kp K_REDO  &kp K_PASTE  &kp K_COPY  &kp K_CUT  &kp K_UNDO  &trans
